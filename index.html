@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePath Academy</title>
+    <link rel="shortcut icon" href="./image.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <header class="top-0 x-50 bg-white shadow-sm">
+        <nav class="sticky max-w-6xl mx-auto flex flex-wrap justify-between items-center px-4 py-5">
+            <a href="#" class="text-2xl font-bold text-indigo-700">CodePath</a>
+            <div class="flex gap-5 text-sm font-medium">
+                <a href="#home" class="hover:text-indigo-600 duration-500">Home</a>
+                <a href="#courses" class="hover:text-indigo-600 duration-500">Courses</a>
+                <a href="#about" class="hover:text-indigo-600 duration-500">About</a>
+                <a href="#contact" class="hover:text-indigo-600 duration-500">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="bg-indigo-50 scroll-mt-32">
+            <div class="flex max-w-6xl mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row">
+                <div class="w-full md:w-1/2">
+                    <p class="text-indigo-700 text-2xl font-bold mb-3">LEARN. BUILD. GROW.</p>
+                    <h1 class="text-5xl font-bold leading-tight mb-3">Start your coding <br>journey with us.</h1>
+                    <p class="">Learn web development through practical, lessons, <br>guided projects and regular coding practice.</p>
+                    <button class="border border-indigo-600 bg-indigo-600 text-white font-bold rounded-2xl mt-3 px-3 py-3 mb-4">Explore Courses</button>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="./image1.png" alt="computer image" class="w-full h-72 rounded-2xl object-cover shadow-2xl">
+                </div>
+            </div>
+        </section>
+        <section id="#courses" class="scroll-mt-32 mx-auto max-w-6xl mx-auto mt-10">
+            <h2 class="text-3xl font-bold text-center mb-3">Our Courses</h2>
+            <p class="text-center text-gray-600">Choose the next step in your learning</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+                <article class="border border-gray-200 p-6 rounded-2xl hover:shadow-2xl duration-500">
+                    <span>🌐</span>
+                    <h3 class="text-lg font-semibold">Frontend Development</h3>
+                    <p>Build responsive websites HTML, CSS, Tailwind and JavaScript</p>
+                    <p>Duration: 12 Weeks</p>
+                </article>
+                <article class="border border-gray-200 p-6 rounded-2xl hover:shadow-2xl duration-500">
+                    <span>⚛️</span>
+                    <h3 class="text-lg font-semibold">MERN Stack</h3>
+                    <p>Build full-stack applications using MongoDB, Express, React and Node.js.</p>
+                    <p>Duration: 20 Weeks</p>
+                </article>
+                <article class="border border-gray-200 p-6 rounded-2xl hover:shadow-2xl duration-500">
+                    <span>🧠</span>
+                    <h3 class="text-lg font-semibold">DSA with C++</h3>
+                    <p>Practise arrays, linked lists, trees, recursion and problem solving.</p>
+                    <p>Duration: 16 Weeks</p>
+                </article>
+            </div>
+        </section>
+        <section id="about" class="scroll-mt-32 text-white bg-gray-900 w-full mx-auto mt-10">
+            <div class="max-w-6xl mx-auto py-16">
+                <h3 class="text-3xl font-bold text-center mb-[20px] py-4">Why Choose Us?</h3>
+                    <div class="grid grid-cols-3 gap-10 px-4">
+                        <div class="mx-auto">
+                            <h3 class="text-violet-600 text-lg">Practical Learning</h3>
+                            <p class="text-gray-200 text-sm mt-3">Build a project after major topics.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-violet-600 text-lg">Guided Practice</h3>
+                            <p class="text-gray-200 text-sm mt-3">Learn with examples and regular feedback.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-violet-600 text-lg">Strong Foundations</h3>
+                            <p class="text-gray-200 text-sm mt-2">Understand how and why your code works.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="pt-10 text-center mx-auto mb-[20px]">
+            <h2 class="text-2xl font-bold">Contact CodePath</h2>
+            <a href="mailto:hello@codepath.com" class="text-indigo-600 mt-3 inline-block">hello@codepath.com</a>
+            <p class="text-gray-600">Fictional Acadmey - classroom project.</p>
+        </footer>
+</body>
+</html>
